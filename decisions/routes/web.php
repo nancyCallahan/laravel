@@ -22,4 +22,4 @@ Route::post('/register','AuthController@postLogin');
 Route::post('/login','AuthController@showLogin');//ruta seguit del controlador +@ la funcio
 
 //index route
-Route::get('/index','HomeControler@showLogin');//ruta seguit del controlador +@ la funcio
+Route::get('/index','HomeController@showLogin');//ruta seguit del controlador +@ la funcio
